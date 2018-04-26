@@ -5,16 +5,12 @@ using UnityEngine;
 
 public class KrabopajakScript : MonoBehaviour
 {
-    static bool Used;
-    //private static int Counter;
-    // Use this for initialization
-    void Start () {
-        Used = false;
-        //Counter = 0;
-		
-	}
+    private static bool Used;
 
-    
+    void Start ()
+    {
+        Used = false;
+	}
 
     // Update is called once per frame
     void Update()
@@ -24,8 +20,6 @@ public class KrabopajakScript : MonoBehaviour
             if ( (Used == false))
             {
 
-                
-                //Counter++;
                 Debug.Log("enetr if krabopajak");
                 GameObject gameObject = GameObject.Find("Game Manager");
                 

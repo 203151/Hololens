@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -639,6 +639,8 @@ MonoBehaviour:
     type: 2}
   OppSilverPrefab12: {fileID: 1662075101775170, guid: ee61d50be2dc8544d9f6a452d73d4bc4,
     type: 2}
+  cardDimentios: {fileID: 4750686687837882, guid: 41a3bad96ac62f846908f3321c450cfc,
+    type: 2}
   NumberOfCards: 15
 --- !u!114 &1851031065
 MonoBehaviour:
@@ -653,6 +655,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BoardCoordinates: {x: 0, y: -0.5, z: 2}
   ScaleFactor: 1
+  cardDimentions: {fileID: 4750686687837882, guid: 41a3bad96ac62f846908f3321c450cfc,
+    type: 2}
   DeckCoordinates: {x: 0, y: 0, z: 0}
   EnemyDeckCoordinates: {x: 0, y: 0, z: 0}
   GraveyardCoordinates: {x: 0, y: 0, z: 0}
